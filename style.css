@@ -17,6 +17,7 @@ body{
     background-size: cover;
     background-position: center; 
     background-repeat: no-repeat;
+    backdrop-filter: blur(5px); 
 }
 
 .container{
@@ -25,15 +26,15 @@ body{
     box-shadow: 25px;
     align-items: center;
     padding: 150px 20px  ;
-    backdrop-filter: blur(20px);
+    /* backdrop-filter: blur(20px); */
     margin: 100px;
     border-radius: 15px;
 
 }
 h1{
     text-align: center;
-    color: whitesmoke;
-    font-size: 40px;
+    color:goldenrod;
+    font-size: 60px;
     font-weight: 600;
     
 }
@@ -76,12 +77,13 @@ ul{
 .todo-items-list li{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     background-color :#a296aeb4;
-    padding: 10px 15px;
-    margin: 6px 0;  
+    padding: 15px 15px;
+    margin: 8px 0;  
     font-size: 18px;
     font-weight: 700;
     color: white;
-    border-radius: 10px;    
+    border-radius: 10px;  
+    
 }
